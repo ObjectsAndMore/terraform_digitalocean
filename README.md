@@ -2,10 +2,10 @@
 Terraform &amp; digitalocean on Windows 10 bash (WSL)
 
 0. git clone this repository to subdirectory terraform_digitalocean
-1. download https://drive.google.com/file/d/0B2ur1NkrLjz0ODM3TjFOX0VTNGM/view?usp=sharing_eil&ts=5953adf6 to ~/.ssh
+1. download https://drive.google.com/file/d/0B2ur1NkrLjz0bnhsMjlzdzhPTEU/view?usp=sharing to ~/.ssh
 2. decrypt id_rsa: gpg id_rsa.gpg
 3. make sure id_rsa permissions are not too open for ssh (chmod 600 ~/.ssh/id_rsa)
 4. set TF_VAR_digitalocean_ssh_fingerprint by sourcing the follwing script: . export_ssh_fingerprint.bash
-5. download https://drive.google.com/file/d/0B2ur1NkrLjz0b2ZiVGlKTEpQU00/view?usp=sharing_eil&ts=5954e067 to terraform_digitalocean
+5. download https://drive.google.com/file/d/0B2ur1NkrLjz0ZkRBalFkSm4tZ0k/view?usp=sharing to terraform_digitalocean
 6. decrypt export_digitalocean_token.bash: gpg export_digitalocean_token.bash.gpg
 7. set TF_VAR_digitalocean_token by sourcing the following script: . export_digitalocean_token.bash
