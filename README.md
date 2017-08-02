@@ -14,6 +14,7 @@ Terraform &amp; digitalocean on Windows 10 bash (WSL)
 10. terraform plan
 11. terraform apply
 12. terraform show
-13. terraform plan (note that the actual infrastructure matches the expected one, so nothing needs to be done)
-14. terraform plan --destroy
-15. terraform destroy
+13. ssh root@$(terraform output address_terraform)
+14. terraform plan (note that the actual infrastructure matches the expected one, so nothing needs to be done)
+15. terraform plan --destroy
+16. terraform destroy
