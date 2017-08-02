@@ -10,9 +10,10 @@ Terraform &amp; digitalocean on Windows 10 bash (WSL)
 6. download https://drive.google.com/file/d/0B2ur1NkrLjz0ZkRBalFkSm4tZ0k/view?usp=sharing to terraform_digitalocean
 7. decrypt export_digitalocean_token.bash: gpg export_digitalocean_token.bash.gpg
 8. set TF_VAR_digitalocean_token by sourcing the following script: . export_digitalocean_token.bash
-9. terraform plan
-10. terraform apply
-11. terraform show
-12. terraform plan (note that the actual infrastructure matches the expected one, so nothing needs to be done)
-13. terraform plan --destroy
-14. terraform destroy
+9. terraform validate
+10. terraform plan
+11. terraform apply
+12. terraform show
+13. terraform plan (note that the actual infrastructure matches the expected one, so nothing needs to be done)
+14. terraform plan --destroy
+15. terraform destroy
